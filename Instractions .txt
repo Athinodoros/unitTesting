@@ -1,0 +1,13 @@
+The unit testing for question 1 is under : 
+
+Test Packages -> testDate ->JunitTestDayCalc.java
+
+The unit testing for question 2 is under : 
+
+Test Packages -> testDate ->JunitTestDeductible.java
+
+And finally the code coverage did not work well on my netbeans (jacoco)
+and for some reason I was geting 0% coverage all the time
+
+
+*I run all my tests with parameters.
