@@ -6,9 +6,15 @@ The unit testing for question 2 is under :
 
 Test Packages -> testDeductible ->JunitTestDeductible.java
 
-And finally the code coverage did not work well on my netbeans (jacoco)
-and for some reason I was geting 0% coverage all the time
+Test Coverage with intellij idea 
 
+
+dateCalculator	100% (1/1)	100% (1/1)	92% (12/13)
+Deductable	100% (1/1)	100% (1/1)	75% (6/8)
+MonthOutOfBoundsException	100% (1/1)	100% (1/1)	100% (2/2)
+YearOutOfBoundsException	100% (1/1)	100% (1/1)	100% (2/2)
+
+The code coverage in netbeans was problematic and only gave me 0%**
 
 *I run all my tests with parameters.
 Also I added a zip of the project in case there is a 

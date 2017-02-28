@@ -5,6 +5,8 @@
  */
 package com.test.unittesting;
 
+import com.mycompany.unittesting.YearOutOfBoundsException;
+
 /**
  *
  * @author Athinodoros
