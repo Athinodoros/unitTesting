@@ -11,3 +11,5 @@ and for some reason I was geting 0% coverage all the time
 
 
 *I run all my tests with parameters.
+Also I added a zip of the project in case there is a 
+problem with the imports, as I had when I coped my project in the git repo...

@@ -5,7 +5,7 @@
  */
 package testDeductable;
 
-import com.mycompany.unittesting.Deductable;
+import com.mycompany.unittesting.*;
 import java.util.Arrays;
 import java.util.Collection;
 import org.junit.Before;

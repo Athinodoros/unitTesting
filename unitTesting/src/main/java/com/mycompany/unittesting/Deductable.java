@@ -9,10 +9,19 @@ package com.mycompany.unittesting;
  *
  * @author Athinodoros
  */
-class Deductable {
+public class Deductable {
 
-    static Object getDeductable(boolean deductableMet, boolean doctorVisit, boolean hospitalVisit) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public static int getDeductable(boolean deductableMet, boolean doctorVisit, boolean hospitalVisit) {
+        if(deductableMet){
+            if(hospitalVisit)
+            {
+                return 80;
+            }else if(doctorVisit){
+                return 50;
+            }else
+                return 0;
+        }else
+        return 0;
     }
     
 }

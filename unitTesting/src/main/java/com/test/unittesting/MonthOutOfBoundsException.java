@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testDeductable;
+package com.test.unittesting;
 
 /**
  *
  * @author Athinodoros
  */
-class Deductable {
+class MonthOutOfBoundsException extends Exception {
     
 }
